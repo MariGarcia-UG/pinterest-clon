@@ -35,11 +35,11 @@ header nav{
     display: flex;
 }
 .first-list li{
-    list-style: nome;
+    list-style: none;
     padding: 14px 12px;
 }
 .first-list a{
-    text-decoration: nome;
+    text-decoration: none;
     color: black;
 }
 #inicio{
@@ -72,9 +72,9 @@ header nav{
     font-weight: bolder;
 }
 .barra input{
-    border: nome;
+    border: none;
     background-color: inherit;
-    padding: opx 8px 0px 0px;
+    padding: 0px 8px 0px 0px;
     font-size: 16px;
     flex-grow: 1;
     outline: none;
@@ -84,7 +84,7 @@ header nav{
     color: #767676;
     font-size: 28px;
 }
-.rigth-items span.hover{
+.rigth-items span:hover{
     background-color: #e9e9e9;
     border-radius: 150px;
     cursor: pointer;
@@ -104,12 +104,12 @@ header nav{
 .card-image img{
     border-radius: 15px;
     min-width: 248px;
-    min-width: 240px;
+    max-width: 240px;
 }
-.card-image:hover>:first-child{
+.card-image:hover > :first-child{
     filter: brightness(60%);
 }
-.card-image:hover>*{
+.card-image:hover > *{
     visibility: visible;
     display: inline;
 }
@@ -120,11 +120,11 @@ header nav{
     padding: 13px 15px;
     background-color: #e60023;
     border-radius: 30px;
-    border: nome;
+    border: none;
     visibility: hidden;
 }
 .button a{
-    text-decoration: nome;
+    text-decoration: none;
     color: white;
     font-size: 16px;
     font-weight: bold;
